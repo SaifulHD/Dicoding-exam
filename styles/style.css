@@ -2,7 +2,30 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-header .navbar-container{
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+.navbar-container ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.navbar-container ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar-container #logo{
+    color: #000;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main #content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
